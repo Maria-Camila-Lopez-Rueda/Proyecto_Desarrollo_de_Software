@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Julee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <title>Fast Tire</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+        <div class="menu_bar">
+            <a href="#" class="bt-menu"><i class="fas fa-bars"></i>Menu</a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li class="logo"><a href="#"><img src="img/Llantita.PNG"></a></li>
+                <li class="submenu uno">
+                    <a href="#"><i class="fas fa-globe-americas"></i>Sobre nosotros<i class="caret fas fa-angle-down"></i></a>
+                    <ul class="children">
+                        <li><a href="#somos">¿Quiénes somos? <i class="far fa-dot-circle"></i></a></li>
+                        <li><a href="#mis">Misión / Visión <i class="far fa-dot-circle"></i></a></li>
+                        <li><a href="#val">Valores <i class="far fa-dot-circle"></i></a></li>
+                    </ul>
+                </li>
+                <li class="submenu uno">
+                    <a href="#"><i class="fas fa-rocket"></i>Servicios<i class="caret fas fa-angle-down"></i></a>
+                    <ul class="children">
+                        <li><a href="#servicios"> Conócelos <i class="far fa-dot-circle"></i></a></li>
+                        <li><a href="#">Recolección <i class="far fa-dot-circle"></i></a></li>
+                        <li><a href="#">Distribución <i class="far fa-dot-circle"></i></a></li>
+                    </ul>
+                </li>
+                <li class="uno"><a href="#"><i class="far fa-newspaper"></i>Noticias</a></li>
+                <li class="uno"><a href="#"><i class="far fa-envelope"></i>Contáctenos</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <div id="slider1">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <input type="radio" name="slider" id="slide4">
+        <div id="slides">
+            <div id="overflow">
+                <div class="inner">
+                    <div class="slide slide_1">
+                        <div class="slide-content">
+                            <h2 class="titulo">¿Quieres saber más de nosotros?</h2>
+                            <button><a href="#somos">Sobre nosotros</a></button> <!-- ***Corregir -->
+                        </div>
+                    </div>
+                    <div class="slide slide_2">
+                        <div class="slide-content">
+                            <h2 class="titulo">¿Quieres conocer nuestros servicios?</h2>
+                            <button><a href="#servicios">Servicios</a></button>
+                        </div>
+                    </div>
+                    <div class="slide slide_3">
+                        <div class="slide-content">
+                            <h2 class="titulo">Lee más acerca de lo que hacemos</h2>
+                            <button>Noticias</button>
+                        </div>
+                    </div>
+                    <div class="slide slide_4">
+                        <div class="slide-content">
+                            <h2 class="titulo">¿Quieres saber más de la problemática?</h2>
+                            <button>¡Sí!</button>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="wave">
+                <!--<div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>-->
+                <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                        style="height: 100%; width: 100%;">
+                        <path d="M-2.59,86.15 C146.95,184.82 323.02,5.24 507.56,110.81 L500.00,150.00 L0.00,150.00 Z"
+                            style="stroke: none; fill: #f2f2f2;"></path>
+                    </svg></div>
+            </div>
+        </div>
+        <div id="controls">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+        </div>
+        <div id="bullets">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+        </div>
+    </div>
+
+    <!--Sobre nosotros-->
+
+    <main>
+
+        <section class="quienes-somos" id="somos">
+            <div class="contenedor">
+                <h2 class="title">¿Quiénes somos?</h2>
+                <div class="contenedor-somos">
+                    <div class="soy">
+                        <div class="psoy">
+                            <i class="fas fa-quote-left"></i><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ex.</p><i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="csoy">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eum temporibus minus ad libero ipsam mollitia voluptatum minima, in vitae ea repellat consequatur pariatur unde. Tempore praesentium, corrupti qui non iure id dignissimos aspernatur incidunt, quaerat fugiat quidem sequi voluptatum repellendus cum. Nemo, ipsam pariatur. Nobis ab illo eligendi ullam excepturi. Ipsa maxime odit incidunt atque minus architecto numquam fuga excepturi. Vitae impedit soluta quia tempora natus? Tempora totam enim consequatur consequuntur explicabo rem temporibus repellat excepturi deleniti voluptatibus ex eaque vitae, aut, voluptate natus sequi iste odit unde ipsa iure eveniet at? Blanditiis, a officia fugiat similique dolores aliquam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="all-sobre-nosotros"  id="sobre-nosotros">
+            <section class="contenedor sobre-nosotros" id="mis">
+                <h2 class="title">Sobre nosotros</h2>
+                <div class="contenedor-sobre-nosotros">
+                    <img src="img/img1.jpg" alt="" class="imagen-about-us">
+                    <div class="contenido-textos">
+                        <h3>Misión</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit excepturi dignissimos, nihil similique odit quisquam harum obcaecati sequi ab. Soluta optio corrupti consequatur nesciunt aliquam minima veniam excepturi vero tenetur?</p>
+                        <h3>Visión</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat unde dolorum blanditiis labore harum earum illum quisquam hic! Totam vel voluptatibus provident fuga animi quidem sunt itaque beatae nostrum? Nesciunt.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="valores" id="val">
+            <div class="contenedor">
+                <h2 class="title">Valores</h2>
+                <div class="contenedor-valores">
+                    <div class="valor">
+                        <h3>Honestidad</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ex.</p>
+                    </div>
+                    <div class="valor">
+                        <h3>Pasión</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ex.</p>
+                    </div>
+                    <div class="valor">
+                        <h3>Integridad</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ex.</p>
+                    </div>
+                    <div class="valor">
+                        <h3>Excelencia</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ex.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container-slider" id="servicios">
+            <div class="slider" id="slider">
+                <div class="slider__section">
+                    <!--<img src="img/imgslide1.jpeg" alt="" class="slider__img1">-->
+                    <div class="img1 imgs">
+                        <h2 class="tslide2 ts2">Servicios</h2>
+                        <div class="ps2">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa blanditiis aut reiciendis ea labore voluptatum. Iusto id ipsum voluptas consequatur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__section">
+                    <!--<img src="img/imgslide2.jpeg" alt="" class="slider__img">-->
+                    <div class="img2 imgs">
+                        <h2 class="tslide2 ts2">Recolección</h2>
+                        <div class="service-s">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, ducimus.</p>
+                            <button class="bs2">Dime más</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__section">
+                    <!--<img src="img/imgslide3.jpeg" alt="" class="slider__img">-->
+                    <div class="img3 imgs">
+                        <h2 class="tslide2 ts2">Distribución</h2>
+                        <div class="service-s">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, ducimus.</p>
+                            <button class="bs2">Dime más</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__section">
+                    <!--<img src="img/imgslide4.jpg" alt="" class="slider__img">-->
+                    <div class="img4 imgs">
+                        <h2 class="tslide2 ts22">¡Comprometidos contigo!</h2>
+                        <div class="ps2">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nulla illo qui voluptatem quia atque autem explicabo omnis molestiae praesentium?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__btn slider__btn--right" id="btn-right">&#62</div>
+            <div class="slider__btn slider__btn--left" id="btn-left">&#60</div>
+        </div>
+        <script src="script.js"></script>
+
+        <section class="servicios">
+            <div class="tlinea">
+                <p>"Somos los mejores en nuestra profesión"</p>
+            </div>
+            <div class="tservicio">
+                <h2 class="title tser">Recolección</h2>
+            </div>
+            <div class="recoleccion">
+                <div class="recolimg">
+                    <img src="img/1x/Recurso 1.png">
+                </div>
+                <div class="recolinfo">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio rerum iusto aspernatur asperiores quis incidunt repudiandae omnis doloremque voluptates magni!</p>
+                    <p><span>1</span></p>
+                </div>
+            </div>
+        </section>
+  
+    </main>
+    <!--Footer-->
+    <div class="container-footer">
+        <footer>
+            <div class="logo-footer">
+                <img src="img/Llantita.PNG" alt="">
+            </div>
+            <div class="redes-footer">
+                <a href="#"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g icon-redes-footer"></i></a>
+                <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a>
+            </div>
+            <hr>
+            <h4>2021 Desarrollador | Ingenieros María Camila López & Daniel Mateo Gómez | Todos los derechos reservados</h4>
+        </footer>
+    </div>
+
+</body>
+</html>
